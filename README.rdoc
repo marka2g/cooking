@@ -1,0 +1,34 @@
+==Cooking Units
+
+- 0.0.5 -beta
+
+This package is originally units but since i can't find the project to fork on github, I made a gem. 
+Also, there was a minor bug (pounds to grams) and I extracted only the conversions 
+needed in the kitchen. 
+* Use either this package or units; using both will cause a stack too deep error.
+* Also, I'm having issues with this on Heroku at the moment. If your super bent on using the package before the issues are resolved, you can always freeze the gem.
+
+
+== Basic Usage
+
+    require 'cooking/cook'
+    1.lb.to_ounces # => 16.0
+
+== Usage
+
+  In a Rails3 App:
+
+  add: gem to your Gemfile
+
+      gem 'cooking'
+
+  next: do it to it...
+    
+        1.lb.to_ounces # => 16.0
+        1.lb.to_gram # => 453.59
+
+Authors
+* Mark Sadegi mailto:mark.sadegi@gmail.com
+* Original package - Ruby Units http://rubyforge.org/projects/units)
+* Lucas Carlson
+* John Butler
