@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Mark Sadegi"]
   s.email       = ["mark.sadegi@gmail.com"]
-  s.homepage    = "git@github.com:marka2g/cooking.git"
+  s.homepage    = "http://github.com/marka2g/cooking"
   s.summary     = %q{A gem used for converting units of measurements in the kitchen}
   s.description = %q{This package is originally units but since i can't find the project to fork on github, I made a gem. Also, there is a minor bug (pounds to grams wrong conversion calculation) and I extracted only the conversions needed in the kitchen. Use either this package or units; both will cause a stack too deep error.}
 
