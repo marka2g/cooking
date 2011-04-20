@@ -1,3 +1,6 @@
+class CookingError < StandardError #:nodoc:
+end
+
 module Cooking
   attr_reader :unit, :kind
   alias :units :unit

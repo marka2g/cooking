@@ -1,5 +1,4 @@
-require 'cooking/base'
-# module Cooking
+# require 'cooking/base'
   class Numeric
     WEIGHT = {
                :pounds             =>  1.0,

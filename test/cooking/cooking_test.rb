@@ -16,7 +16,7 @@ class CookingTest < Test::Unit::TestCase
   end
 
   def test_volume
-     assert_equal 4.0, 1.cups.to_quarts
+     assert_equal 0.25, 1.cups.to_quarts
      assert_equal :quarts, (1.cups.to_quarts).units
      assert_equal :volume, (1.cups.to_quarts).kind
      puts "1 cup = #{1.cups.to_quarts} quarts"
